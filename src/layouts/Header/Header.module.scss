@@ -1,0 +1,41 @@
+.btn {
+  @apply ml-5 px-30 py-10 rounded-md;
+
+  @apply xl:ml-0 xl:px-4 xl:py-2 xl:my-2;
+}
+
+.item {
+  @apply relative text-xl duration-300 mr-9 last:mr-4;
+
+  @apply xl:mr-0 xl:mb-3 xl:text-xl;
+
+  @media (hover: hover) {
+    &:hover {
+      @apply text-purple;
+    }
+  }
+}
+
+.dropdown {
+  @apply flex flex-col backdrop-blur-[1px] h-[80px] bg-brown-dark justify-center gap-4 rounded-md absolute -right-[65%] w-[100px];
+}
+
+.select_btn {
+  @apply hover:text-purple duration-300;
+}
+
+.active_btn {
+  @apply text-purple;
+}
+
+.item-moobile {
+  @apply relative text-xl duration-300 mr-9;
+
+  @apply xl:mr-0 xl:mb-3 xl:text-xl;
+
+  @media (hover: hover) {
+    &:hover {
+      @apply text-purple;
+    }
+  }
+}

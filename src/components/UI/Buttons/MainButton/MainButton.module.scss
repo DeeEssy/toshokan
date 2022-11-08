@@ -1,0 +1,7 @@
+.root-btn {
+  @apply border-2 text-gray-light;
+
+  &_purple {
+    @apply border-purple;
+  }
+}
